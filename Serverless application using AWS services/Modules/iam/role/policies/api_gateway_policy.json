@@ -1,0 +1,34 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": [
+        "sqs:GetQueueUrl",
+        "sqs:ChangeMessageVisibility",
+        "sqs:ListDeadLetterSourceQueues",
+        "sqs:SendMessageBatch",
+        "sqs:PurgeQueue",
+        "sqs:ReceiveMessage",
+        "sqs:SendMessage",
+        "sqs:GetQueueAttributes",
+        "sqs:CreateQueue",
+        "sqs:ListQueueTags",
+        "sqs:ChangeMessageVisibilityBatch",
+        "sqs:SetQueueAttributes",
+        "sqs:ListQueue"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "sqs:ListQueues",
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "sqs:SendMessage",
+      "Resource": "arn:aws:sqs:us-east-2:571962172010:HTC_POC_OP_618580_QueueSQS"
+    }
+  ]
+}
