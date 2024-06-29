@@ -1,16 +1,16 @@
-variable "HTC_POC_OP_618580_APIGatewayPolicyAttachment_Name" {}
+variable "Usecase_APIGatewayPolicyAttachment_Name" {}
 
 
-variable "HTC_POC_OP_618580_APIPolicyAttachment_Name" {}
+variable "Usecase_APIPolicyAttachment_Name" {}
 
-variable "HTC_POC_OP_618580_LambdaDynamoDBPolicyAttachment_Name" {}
-variable "HTC_POC_OP_618580_LambdaDynamoDBPolicyAttachment_PolicyARN" {}
+variable "Usecase_LambdaDynamoDBPolicyAttachment_Name" {}
+variable "Usecase_LambdaDynamoDBPolicyAttachment_PolicyARN" {}
 
 
-variable "HTC_POC_OP_618580_LambdaFullAccess_Name" {}
+variable "Usecase_LambdaFullAccess_Name" {}
 
-variable "HTC_POC_OP_618580_CloudWatchPolicyAttachment_Name" {}
-variable "HTC_POC_OP_618580_LambdaFullAccess_PolicyARN" {}
+variable "Usecase_CloudWatchPolicyAttachment_Name" {}
+variable "Usecase_LambdaFullAccess_PolicyARN" {}
 
 
 variable "policy_arn_APIGateway" {}

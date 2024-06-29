@@ -28,7 +28,7 @@
     {
       "Effect": "Allow",
       "Action": "sqs:SendMessage",
-      "Resource": "arn:aws:sqs:us-east-2:571962172010:HTC_POC_OP_618580_QueueSQS"
+      "Resource": "arn:aws:sqs:us-east-2:571962172010:Usecase_QueueSQS"
     }
   ]
 }

@@ -9,31 +9,31 @@ variable "common_tags" {}
 
 # IAM VARIABLES
 
-variable "HTC_POC_OP_618580_APIGatewayRole_Name" {}
+variable "Usecase_APIGatewayRole_Name" {}
 variable "api_gateway_role_policy" {}
-variable "HTC_POC_OP_618580_APIGatewayPolicy_Name" {}
-variable "HTC_POC_OP_618580_APIGatewayPolicy_Description" {}
+variable "Usecase_APIGatewayPolicy_Name" {}
+variable "Usecase_APIGatewayPolicy_Description" {}
 variable "api_gateway_policy" {}
-variable "HTC_POC_OP_618580_APIGatewayPolicyAttachment_Name" {}
-variable "HTC_POC_OP_618580_LambdaRoleForAuthorizer_Name" {}
+variable "Usecase_APIGatewayPolicyAttachment_Name" {}
+variable "Usecase_LambdaRoleForAuthorizer_Name" {}
 variable "lambda_role_policy" {}
-variable "HTC_POC_OP_618580_LambdaFullAccess_Name" {}
-variable "HTC_POC_OP_618580_LambdaFullAccess_PolicyARN" {}
-variable "HTC_POC_OP_618580_APIGatewayCustomPolicy_Name" {}
-variable "HTC_POC_OP_618580_APIGatewayCustomPolicy_Description" {}
+variable "Usecase_LambdaFullAccess_Name" {}
+variable "Usecase_LambdaFullAccess_PolicyARN" {}
+variable "Usecase_APIGatewayCustomPolicy_Name" {}
+variable "Usecase_APIGatewayCustomPolicy_Description" {}
 variable "api_gateway_custom_policy" {}
-variable "HTC_POC_OP_618580_APIPolicyAttachment_Name" {}
-variable "HTC_POC_OP_618580_LambdaRole_Name" {}
+variable "Usecase_APIPolicyAttachment_Name" {}
+variable "Usecase_LambdaRole_Name" {}
 variable "lambdarole" {}
-variable "HTC_POC_OP_618580_LambdaDynamoDBPolicyAttachment_Name" {}
-variable "HTC_POC_OP_618580_LambdaDynamoDBPolicyAttachment_PolicyARN" {}
-variable "HTC_POC_OP_618580_LambdaSQSPolicy_Name" {}
-variable "HTC_POC_OP_618580_LambdaSQSPolicy_Description" {}
+variable "Usecase_LambdaDynamoDBPolicyAttachment_Name" {}
+variable "Usecase_LambdaDynamoDBPolicyAttachment_PolicyARN" {}
+variable "Usecase_LambdaSQSPolicy_Name" {}
+variable "Usecase_LambdaSQSPolicy_Description" {}
 variable "lambda_sqs_policy" {}
-variable "HTC_POC_OP_618580_CloudWatchPolicy_Name" {}
-variable "HTC_POC_OP_618580_CloudWatchPolicy_Description" {}
+variable "Usecase_CloudWatchPolicy_Name" {}
+variable "Usecase_CloudWatchPolicy_Description" {}
 variable "cloudwatch_policy" {}
-variable "HTC_POC_OP_618580_CloudWatchPolicyAttachment_Name" {}
+variable "Usecase_CloudWatchPolicyAttachment_Name" {}
 
 
 
@@ -50,77 +50,77 @@ variable "HTC_POC_OP_618580_CloudWatchPolicyAttachment_Name" {}
 # API_GATEWAY VARIABLES
 
 
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_Name" {}
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_Type" {}
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_IdentitySource" {}
-variable "HTC_POC_OP_618580_APIGateway_Name" {}
-variable "HTC_POC_OP_618580_APIGateway_Description" {}
-variable "HTC_POC_OP_618580_APIGateway_EndpointType" {}
-variable "HTC_POC_OP_618580_APIGateway_Resource_PathPart" {}
-variable "HTC_POC_OP_618580_APIGateway_RequestValidator_Name" {}
-variable "HTC_POC_OP_618580_APIGateway_RequestValidator_ValidateRequestBody" {}
-variable "HTC_POC_OP_618580_APIGateway_HTTPMETHOD" {}
-variable "HTC_POC_OP_618580_APIGateway_Method_Authorization" {}
-variable "HTC_POC_OP_618580_APIGateway_Integration_TYPE" {}
-variable "HTC_POC_OP_618580_APIGateway_Integration_RequestTemplates" {}
-variable "HTC_POC_OP_618580_APIGateway_Integration_RequestParameters" {}
-variable "HTC_POC_OP_618580_APIGateway_IntegrationResponse_Post_ResponseTemplate" {}
-variable "HTC_POC_OP_618580_APIGateway_IntegrationResponse_PUT_ResponseTemplate" {}
-variable "HTC_POC_OP_618580_APIGateway_MethodResponse_DELETE_ResponseTemplate" {}
-variable "HTC_POC_OP_618580_APIGateway_MethodResponse_StatusCode" {}
-variable "HTC_POC_OP_618580_APIGateway_Method_PUT_HttpMethod" {}
-variable "HTC_POC_OP_618580_APIGateway_Method_DELETE_HttpMethod" {}
-variable "HTC_POC_OP_618580_APIGateway_Invoke_GET_StatementID" {}
-variable "HTC_POC_OP_618580_APIGateway_Invoke_GET_Action" {}
-variable "HTC_POC_OP_618580_APIGateway_Invoke_GET_Principle" {}
-variable "HTC_POC_OP_618580_Method_GET_HttpMethod" {}
-variable "HTC_POC_OP_618580_Integration_GET_Type" {}
-variable "HTC_POC_OP_618580_Integration_GET_ApplicationJson" {}
-variable "HTC_POC_OP_618580_MethodResponse_GET_ResponseModels" {}
-variable "HTC_POC_OP_618580_IntegrationResponse_GET_ResponseTemplate" {}
-variable "HTC_POC_OP_618580_APIGatewayDeployment_StageName" {}
+variable "Usecase_LambdaTokenAuthorizer_Name" {}
+variable "Usecase_LambdaTokenAuthorizer_Type" {}
+variable "Usecase_LambdaTokenAuthorizer_IdentitySource" {}
+variable "Usecase_APIGateway_Name" {}
+variable "Usecase_APIGateway_Description" {}
+variable "Usecase_APIGateway_EndpointType" {}
+variable "Usecase_APIGateway_Resource_PathPart" {}
+variable "Usecase_APIGateway_RequestValidator_Name" {}
+variable "Usecase_APIGateway_RequestValidator_ValidateRequestBody" {}
+variable "Usecase_APIGateway_HTTPMETHOD" {}
+variable "Usecase_APIGateway_Method_Authorization" {}
+variable "Usecase_APIGateway_Integration_TYPE" {}
+variable "Usecase_APIGateway_Integration_RequestTemplates" {}
+variable "Usecase_APIGateway_Integration_RequestParameters" {}
+variable "Usecase_APIGateway_IntegrationResponse_Post_ResponseTemplate" {}
+variable "Usecase_APIGateway_IntegrationResponse_PUT_ResponseTemplate" {}
+variable "Usecase_APIGateway_MethodResponse_DELETE_ResponseTemplate" {}
+variable "Usecase_APIGateway_MethodResponse_StatusCode" {}
+variable "Usecase_APIGateway_Method_PUT_HttpMethod" {}
+variable "Usecase_APIGateway_Method_DELETE_HttpMethod" {}
+variable "Usecase_APIGateway_Invoke_GET_StatementID" {}
+variable "Usecase_APIGateway_Invoke_GET_Action" {}
+variable "Usecase_APIGateway_Invoke_GET_Principle" {}
+variable "Usecase_Method_GET_HttpMethod" {}
+variable "Usecase_Integration_GET_Type" {}
+variable "Usecase_Integration_GET_ApplicationJson" {}
+variable "Usecase_MethodResponse_GET_ResponseModels" {}
+variable "Usecase_IntegrationResponse_GET_ResponseTemplate" {}
+variable "Usecase_APIGatewayDeployment_StageName" {}
 
 variable "arn_apigateway" {}
-variable "HTC_POC_OP_618580_QueueSQS_path" {}
+variable "Usecase_QueueSQS_path" {}
 
 
 # DYNAMO_DB VARIABLES
 
-variable "HTC_POC_OP_618580_DynamoDBTable_Name" {}
-variable "HTC_POC_OP_618580_DynamoDBTable_BillingMode" {}
-variable "HTC_POC_OP_618580_DynamoDBTable_HashKey" {}
-variable "HTC_POC_OP_618580_DynamoDBTable_AttributeType" {}
+variable "Usecase_DynamoDBTable_Name" {}
+variable "Usecase_DynamoDBTable_BillingMode" {}
+variable "Usecase_DynamoDBTable_HashKey" {}
+variable "Usecase_DynamoDBTable_AttributeType" {}
 
 
 # SQS_QUEUE VARIABLES
 
-variable "HTC_POC_OP_618580_QueueSQS_Name" {}
-variable "HTC_POC_OP_618580_QueueSQS_DelaySeconds" {}
-variable "HTC_POC_OP_618580_QueueSQS_MaxMessageSize" {}
-variable "HTC_POC_OP_618580_QueueSQS_MessageRetentionSeconds" {}
-variable "HTC_POC_OP_618580_QueueSQS_VisisbilityTimeoutSeconds" {}
-variable "HTC_POC_OP_618580_QueueSQS_ReceiveWaitTimeSeconds" {}
+variable "Usecase_QueueSQS_Name" {}
+variable "Usecase_QueueSQS_DelaySeconds" {}
+variable "Usecase_QueueSQS_MaxMessageSize" {}
+variable "Usecase_QueueSQS_MessageRetentionSeconds" {}
+variable "Usecase_QueueSQS_VisisbilityTimeoutSeconds" {}
+variable "Usecase_QueueSQS_ReceiveWaitTimeSeconds" {}
 
 
 # LAMBDA_PACKAGE VARIABLES
 
-variable "HTC_POC_OP_618580_LambdaFunction_CRUD_FileName" {}
-variable "HTC_POC_OP_618580_LambdaFunction_CRUD_FunctionName" {}
-variable "HTC_POC_OP_618580_LambdaFunction_CRUD_Handler" {}
-variable "HTC_POC_OP_618580_LambdaFunction_Runtime" {}
-variable "HTC_POC_OP_618580_LambdaFunction_GET_FileName" {}
-variable "HTC_POC_OP_618580_LambdaFunction_GET_FunctionName" {}
-variable "HTC_POC_OP_618580_LambdaFunction_GET_Handler" {}
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_FileName" {}
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_FunctionName" {}
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_Handler" {}
-variable "HTC_POC_OP_618580_LambdaTrigger_BatchSize" {}
-variable "HTC_POC_OP_618580_LambdaTrigger_MaximumBatchingWindowInSeconds" {}
+variable "Usecase_LambdaFunction_CRUD_FileName" {}
+variable "Usecase_LambdaFunction_CRUD_FunctionName" {}
+variable "Usecase_LambdaFunction_CRUD_Handler" {}
+variable "Usecase_LambdaFunction_Runtime" {}
+variable "Usecase_LambdaFunction_GET_FileName" {}
+variable "Usecase_LambdaFunction_GET_FunctionName" {}
+variable "Usecase_LambdaFunction_GET_Handler" {}
+variable "Usecase_LambdaTokenAuthorizer_FileName" {}
+variable "Usecase_LambdaTokenAuthorizer_FunctionName" {}
+variable "Usecase_LambdaTokenAuthorizer_Handler" {}
+variable "Usecase_LambdaTrigger_BatchSize" {}
+variable "Usecase_LambdaTrigger_MaximumBatchingWindowInSeconds" {}
 
-variable "HTC_POC_OP_618580_LambdaFunction_CRUD_FileName_archives" {}
-variable "HTC_POC_OP_618580_LambdaFunction_GET_FileName_archives" {}
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_FileName_archives" {}
+variable "Usecase_LambdaFunction_CRUD_FileName_archives" {}
+variable "Usecase_LambdaFunction_GET_FileName_archives" {}
+variable "Usecase_LambdaTokenAuthorizer_FileName_archives" {}
 
-variable "HTC_POC_OP_618580_LambdaFunction_CRUD_Archive" {}
-variable "HTC_POC_OP_618580_LambdaFunction_GET_Archive" {}
-variable "HTC_POC_OP_618580_LambdaTokenAuthorizer_Archive" {}
+variable "Usecase_LambdaFunction_CRUD_Archive" {}
+variable "Usecase_LambdaFunction_GET_Archive" {}
+variable "Usecase_LambdaTokenAuthorizer_Archive" {}

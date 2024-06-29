@@ -1,12 +1,12 @@
-output "HTC_POC_OP_618580_QueueSQS_ARN" {
-  value = aws_sqs_queue.HTC_POC_OP_618580_QueueSQS.arn
+output "Usecase_QueueSQS_ARN" {
+  value = aws_sqs_queue.Usecase_QueueSQS.arn
 }
 
-output "HTC_POC_OP_618580_QueueSQS" {
-  value = aws_sqs_queue.HTC_POC_OP_618580_QueueSQS
+output "Usecase_QueueSQS" {
+  value = aws_sqs_queue.Usecase_QueueSQS
 }
 
-output "HTC_POC_OP_618580_QueueSQS_URL" {
-  value = aws_sqs_queue.HTC_POC_OP_618580_QueueSQS.id
+output "Usecase_QueueSQS_URL" {
+  value = aws_sqs_queue.Usecase_QueueSQS.id
 }
   
