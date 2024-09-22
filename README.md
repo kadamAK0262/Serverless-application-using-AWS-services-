@@ -30,3 +30,6 @@ API Gateway: Access the API endpoints via the URL provided by API Gateway.
 DynamoDB: Data is stored and retrieved from DynamoDB tables.
 Lambda: Business logic executed in response to API calls, DynamoDB streams, SQS messages, and SNS notifications.
 SQS : Manage queues and topics as configured in the Terraform scripts.
+
+Testing : For testing purpose I have used terratest for terraform infrastructure testing. Terratest is based on the "go" lannguage.
+Make sure to change account number, region and other credentials according to your requirement.
